@@ -2,18 +2,22 @@
 
 Virtual Art Gallery is a social media site for visual artists, digital creators and art enthusiasts. The site allows for individual users to create their own user profiles, publish their oen unique artwork and follow other artists and profiles. This documentation describes the API for this site and how the backend functionality for the app was developed and how it is utilised.
 
-## 
+## Site Goals
 
-### Site Goals
+The goal of this site is to connect people with similar interests in visual art and let them share ideas, build networks and comment, like and review each others work.  
+
+### The API models
+
+This API consists of 8 models which are wired to the front end architecture to provide a good user experience. These models will be described in greater detail later in this documentation and their front end representation is described in the documentation for the ReactJS app.
+- [Link]()
+
+## Agile Methodology
 
 
-### Agile Methodology
 
+### Epics
 
-
-## Epics
-
-## User Stories
+### User Stories
 
 ## Technologies
 
