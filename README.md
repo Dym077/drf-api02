@@ -1,5 +1,6 @@
 # Virtual Art Gallery - API
 
+Virtual Art Gallery is a social media site for visual artists, digital creators and art enthusiasts. The site allows for individual users to create their own user profiles, publish their oen unique artwork and follow other artists and profiles. This documentation describes the API for this site and how the backend functionality for the app was developed and how it is utilised.
 
 ## 
 
@@ -22,7 +23,9 @@
 
 
 
-## Deployment
+## Planning and Deployment
+- [ERD](documentation/drf-api2_ERD%202024-06-04%20143404.png)
+
 ## Heroku Deployment
 
 The site was deployed to Heroku. These are the steps to do this:
