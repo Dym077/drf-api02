@@ -11,9 +11,14 @@ The goal of this site is to connect people with similar interests in visual art 
 This API consists of 8 models which are wired to the front end architecture to provide a good user experience. These models will be described in greater detail later in this documentation and their front end representation is described in the documentation for the ReactJS app.
 - [Link]()
 
-## Agile Methodology
+## The Agile Method     
 
+This project was developed using the Agile method to achieve a good workflow.
+All the User stories in the Kanban board are associated to their respective Epics.
+They are also labelled according to their prioritisation index: Must-have, Should-have, Could-have and Won't-have. 
 
+The Kanban board was created wit Github Projects. You can find the link to it [here](https://github.com/Dym077/drf-api02/projects?query=is%3Aopen) 
+The board is complete with all User stories having their acceptance criteria displayed. 
 
 ### Epics
 
