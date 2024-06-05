@@ -21,6 +21,7 @@ The Kanban board was created wit Github Projects. You can find the link to it [h
 The board is complete with all User stories having their acceptance criteria displayed. 
 
 ### Epics
+<details open>
 
 * As a **developer** I can **make sure that the project is well coded** so that **it runs without problems or bugs**
 
@@ -116,7 +117,10 @@ The board is complete with all User stories having their acceptance criteria dis
 
 - Deploy an early version of the project
 
+</details>
+
 ### User Stories
+<details open>
 
 * As a **user** I can **view posts by a specific user or artist** so that **I can keep myself updated about them**
 
@@ -445,7 +449,7 @@ The board is complete with all User stories having their acceptance criteria dis
   any other isues related to the site.
 - The site admin/ owner will respond accordingly
 
-
+</details>
 
 ## Technologies
 
