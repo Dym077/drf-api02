@@ -6,7 +6,7 @@ from likes.serializers import LikeSerializer
 
 class LikeList(generics.ListCreateAPIView):
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
-    serializer_class= LikeSerializer
+    serializer_class = LikeSerializer
     queryset = Like.objects.all()
 
     def perform_create(self, serializer):
