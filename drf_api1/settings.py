@@ -102,9 +102,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # 'allauth.account.middleware.AccountMiddleware',
-    # 'allauth.account.middleware.AuthenticationMiddleware',
-    
 ]
 
 if 'CLIENT_ORIGIN' in os.environ:
@@ -137,6 +134,7 @@ TEMPLATES = [
     },
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://*.gitpod.io',]
 WSGI_APPLICATION = 'drf_api1.wsgi.application'
 
 
