@@ -61,7 +61,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'), 'localhost',]
+ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'), 'localhost','8000-dym077-drfapi02-7wf53jxxh6n.ws-eu114.gitpod.io',]
 
 
 # Application definition
@@ -91,6 +91,7 @@ INSTALLED_APPS = [
     'comments',
     'likes',
     'followers',
+    'artists',
 ]
 SITE_ID = 1
 
@@ -110,7 +111,7 @@ if 'CLIENT_ORIGIN_DEV' in os.environ:
     CORS_ALLOWED_ORIGIN_REGEXES = [
         rf"{extracted_url}(eu|us)\d+\w\.gitpod\.io$",
     ]
-    
+
 CORS_ALLOW_CREDENTIALS = True  
 CORS_ORIGIN_ALLOW_ALL=True    
 
