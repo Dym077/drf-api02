@@ -460,7 +460,7 @@ The board is complete with all User stories having their acceptance criteria dis
 
 
 ## Planning and Deployment
-- [ERD](documentation/drf-api2_ERD%202024-06-04%20143404.png)
+![ Alt Text](documentation/drf-api_ERD%2020240611.png)
 
 ## Heroku Deployment
 
