@@ -12,6 +12,7 @@ class Review(models.Model):
     artist = models.ForeignKey(Post, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    read = models.BooleanField(default=False)
     content = models.TextField()
     review = models.TextField()
 

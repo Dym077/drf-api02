@@ -77,7 +77,7 @@ class ArtistList(generics.ListAPIView):
 
 class ArtistDetail(generics.RetrieveUpdateAPIView):
     """
-    Retrieve or update aa artist profile if you're the owner.
+    Retrieve or update an artist profile if you're the owner.
     """
     permission_classes = [IsOwnerOrReadOnly]
     queryset = Artist.objects.annotate(
