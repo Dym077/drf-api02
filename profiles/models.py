@@ -7,9 +7,9 @@ class Profile(models.Model):
     owner = models.OneToOneField(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    read = models.BooleanField(default=False)
     name = models.CharField(max_length=255, blank=True)
     content = models.TextField(blank=True)
+    is_profile = models.BooleanField(default=False)
     image = models.ImageField(
         upload_to='images/', default='../default_profile_relxos'
     )
@@ -35,6 +35,7 @@ class Artist(models.Model):
     name = models.CharField(max_length=255, blank=True)
     content = models.TextField(blank=True)
     specs = models.CharField(max_length=255, blank=True)
+    is_artist = models.BooleanField(default=False)
     image = models.ImageField(
         upload_to='images/', default='../default_profile_relxos'
     )
