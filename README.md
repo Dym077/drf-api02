@@ -20,6 +20,15 @@ They are also labelled according to their prioritisation index: Must-have, Shoul
 The Kanban board was created wit Github Projects. You can find the link to it [here](https://github.com/Dym077/drf-api02/projects?query=is%3Aopen) 
 The board is complete with all User stories having their acceptance criteria displayed. 
 
+## Planning and Deployment
+
+I am using ERD's(Entity Relationship Diagrams) to plan and describe my database models. The original First ERD was made with each class defined in a separate model:
+![ First ERD ](documentation/drf-api_ERD%2020240611.png)
+
+After getting some feedback on this first model, I instead tried to rebuild the database fromthis second ERD, where two or more classes were included in a model and then selected using a BooleanField:
+![ Second ERD ](documentation/drf-api_ERD%2020240612.png) 
+
+
 ### Epics
 <details open>
 
@@ -456,11 +465,6 @@ The board is complete with all User stories having their acceptance criteria dis
 *
 
 ## Testing
-
-
-
-## Planning and Deployment
-![ Alt Text](documentation/drf-api_ERD%2020240611.png)
 
 ## Heroku Deployment
 
