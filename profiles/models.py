@@ -9,7 +9,6 @@ class Profile(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     name = models.CharField(max_length=255, blank=True)
     content = models.TextField(blank=True)
-    # profile = models.BooleanField(default=False)
     image = models.ImageField(
         upload_to='images/', default='../default_profile_relxos'
     )
@@ -35,7 +34,6 @@ class Artist(models.Model):
     name = models.CharField(max_length=255, blank=True)
     content = models.TextField(blank=True)
     specs = models.CharField(max_length=255, blank=True)
-    # artist = models.BooleanField(default=False)
     image = models.ImageField(
         upload_to='images/', default='../default_profile_relxos'
     )
