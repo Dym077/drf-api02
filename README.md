@@ -15,7 +15,7 @@ This API consists of 8 models which are wired to the front end architecture to p
 
 This project was developed using the Agile method to achieve a good workflow.
 All the User stories in the Kanban board are associated to their respective Epics.
-They are also labelled according to their prioritisation index: Must-have, Should-have, Could-have and Won't-have. 
+They are also labelled according to their MoSCoW prioritisation index: Must-have, Should-have, Could-have and Won't-have. 
 
 The Kanban board was created wit Github Projects. You can find the link to it [here](https://github.com/Dym077/drf-api02/projects?query=is%3Aopen) 
 The board is complete with all User stories having their acceptance criteria displayed. 
@@ -460,11 +460,27 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 
 </details>
 
+### Using MosSCoW Prioritisation:
+
+All the User Stories are sorted according to their prioritisation index, using the MoSCoW method.
+By applying this method, it is easer to choose which features will be implemented first while prioritising them by their level of importance.
+
+* Must-Have: These features are essential for the application and cannot be left out.
+* Should-Have: Features that are valuable for the application but not essential.
+* Could-Have: Nice features that can be implemented if the deadline allows it.
+* Won't-Have: Features that mosst likely won't be implemented in this project.
+
+
+
 ## Technologies
 
 *
 
 ## Testing
+
+### Manual Testing
+
+#### Found bugs while testing
 
 ## Heroku Deployment
 
