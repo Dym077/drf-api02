@@ -468,7 +468,7 @@ By applying this method, it is easer to choose which features will be implemente
 * Must-Have: These features are essential for the application and cannot be left out.
 * Should-Have: Features that are valuable for the application but not essential.
 * Could-Have: Nice features that can be implemented if the deadline allows it.
-* Won't-Have: Features that mosst likely won't be implemented in this project.
+* Won't-Have: Features that most likely won't be implemented in this project.
 
 
 
@@ -481,6 +481,10 @@ By applying this method, it is easer to choose which features will be implemente
 ### Manual Testing
 
 #### Found bugs while testing
+
+#### Fixed bugs
+
+#### Unresolved bugs
 
 ## Heroku Deployment
 
@@ -507,6 +511,10 @@ The live link can be found here:
 
 ## Credits
 
+### Online resources
+! [Stack Overflow](https://stackoverflow.com/)
+! [Django Documentation](https://docs.djangoproject.com/en/5.0/)
+! []()
 
 
 ### Content
@@ -514,3 +522,7 @@ The live link can be found here:
 
 ### Acknowledgements
 
+* My Mentor Jubril Akolade.
+* The Tutor Team at Code Institute for going above and beyond to help me.
+* The Slack community which has provided invaluable resources and support.
+* My friends that have supported me through the process.
