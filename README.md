@@ -495,6 +495,29 @@ The site was deployed to Heroku. These are the steps to do this:
 * Select "create new app"
 * Give your app a name
 * Select region and click "create app"
+* Choose the "settings" tab and click "Reveal Config Vars" to set Your variables
+
+| Key | Value |
+| --- | --- |
+| `CLOUDINARY_URL` | exclusive to the user |
+| `DATABASE_URL` | exclusive to the user |
+| `DISABLE_COLLECTSTATIC` | 1 (*not needed for the final deployment*) |
+| `SECRET_KEY` | exclusive to the user |
+
+To deploy properly, Heroku needs two addiional files:
+- requirements.txt
+- Procfile
+
+To install Your project's **requirements**, and You already have them in a requirements.txt-file, You can use the terminal command
+- `pip3 install -r requirements.txt`
+
+If You have dependencies that have been installed, You can collect them in Your requirements.txt using this command:
+- `pip3 freeze --local > requirements.txt`
+
+The Procfile can be created either by right-clicking in the base dir and select "New file" and naming the file "Procfile"(please note that there is no file extension), or by using the termial command:
+- `echo web: gunicorn app_name.wsgi > Procfile`
+- *replace **app_name** with the name of your primary Django app name; the folder where settings.py is located*
+
 * Click the "deploy" tab
 * Scroll down to "Connect to GitHub" 
 * In the search box, choose your repositoy and click "connect"
