@@ -458,6 +458,18 @@ After getting some feedback on this first model, I instead tried to rebuild the 
   any other isues related to the site.
 - The site admin/ owner will respond accordingly
 
+* As a user I can create a unique username and password so that I can log onto the site
+
+- User can create a username
+- User can create a password
+- User can log in with these credentials
+
+* As a user I can use the navigation bar so that I can navigate between the views easily
+
+- All menues are visible in the navigation bar
+- User can click on the menues in the navigation bar
+- The selected view will be visible to the user
+
 </details>
 
 ### Using MosSCoW Prioritisation:
