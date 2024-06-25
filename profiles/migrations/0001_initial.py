@@ -23,7 +23,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(blank=True, max_length=255)),
                 ('content', models.TextField(blank=True)),
                 ('specs', models.CharField(blank=True, max_length=255)),
-                ('image', models.ImageField(default='../default_profile_relxos', upload_to='images/')),
+                ('image', models.ImageField(default='../default_profile_relxos.jpg', upload_to='images/')),
                 ('owner', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
             options={
@@ -38,7 +38,7 @@ class Migration(migrations.Migration):
                 ('updated_at', models.DateTimeField(auto_now=True)),
                 ('name', models.CharField(blank=True, max_length=255)),
                 ('content', models.TextField(blank=True)),
-                ('image', models.ImageField(default='../default_profile_relxos', upload_to='images/')),
+                ('image', models.ImageField(default='../default_profile_relxos.jpg', upload_to='images/')),
                 ('owner', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
             options={
