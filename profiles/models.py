@@ -10,7 +10,7 @@ class Profile(models.Model):
     name = models.CharField(max_length=255, blank=True)
     content = models.TextField(blank=True)
     image = models.ImageField(
-        upload_to='images/', default='../default_profile_relxos'
+        upload_to='images/', default='images/default_profile_relxos.jpg'
     )
 
     class Meta:
@@ -35,7 +35,7 @@ class Artist(models.Model):
     content = models.TextField(blank=True)
     specs = models.CharField(max_length=255, blank=True)
     image = models.ImageField(
-        upload_to='images/', default='../default_profile_relxos'
+        upload_to='images/', default='../avatar_ndcfzk.png'
     )
 
     class Meta:
