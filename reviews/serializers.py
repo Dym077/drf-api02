@@ -29,7 +29,7 @@ class ReviewSerializer(serializers.ModelSerializer):
         ]
 
 
-class ReviewDetailSerializer(serializers.ModelSerializer):
+class ReviewDetailSerializer(ReviewSerializer):
     
     artist = serializers.ReadOnlyField(source='artist.id')
 
