@@ -492,6 +492,8 @@ By applying this method, it is easer to choose which features will be implemente
 
 ### Manual Testing
 
+A series of manual tests were utilized to check all endpoints. 
+
 #### Found bugs while testing
 
 #### Fixed bugs
