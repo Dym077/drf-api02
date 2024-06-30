@@ -498,6 +498,9 @@ A series of manual tests were utilized to check all endpoints.
 
 #### Fixed bugs
 
+The DOM returns a NaN message when a user submits a comment on another user's post. The reason for this error is not to be found in the front end, but should be caused when the integer from the API isn't properly read by the DOM, believing it to be a string rather than an integer. The culprit was revealed to be the serializer in the Postserializer model for the backend API missed a comments_count field so the Post model was not annotated with comments_count field. Thanks to help from tutor support we were able to pinpoint this bug and fix it.
+
+
 #### Unresolved bugs
 
 ## Heroku Deployment
