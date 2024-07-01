@@ -9,6 +9,7 @@ class Profile(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     name = models.CharField(max_length=255, blank=True)
     content = models.TextField(blank=True)
+    specs = models.CharField(max_length=255, blank=True)
     image = models.ImageField(
         upload_to='images/', default='../avatar_ndcfzk.png'
     )
