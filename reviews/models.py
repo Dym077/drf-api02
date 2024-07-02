@@ -12,12 +12,13 @@ class Review(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     review = models.TextField()
+    rating = models.IntegerField()
 
     class Meta:
         ordering = ['-created_at']
 
     def __str__(self):
-        return self.content
+        return self.review
 
 
 class Comment(models.Model):
