@@ -3,5 +3,7 @@ from profiles import views
 
 urlpatterns = [
     path('profiles/', views.ProfileList.as_view()),
-    path('profiles/<int:pk>/', views.ProfileDetail.as_view())
+    path('profiles/<int:pk>/', views.ProfileDetail.as_view()),
+    path('artists/', views.ArtistList.as_view()),
+    path('artists/<int:pk>/', views.ArtistDetail.as_view()),
 ]
