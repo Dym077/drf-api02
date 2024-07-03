@@ -28,8 +28,8 @@ class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
         fields = [
-            'id', 'owner','review', 'rating', 'is_owner', 'artist_id', 'artist_image',
-            'post', 'created_at', 'updated_at', 'content'
+            'id', 'owner','review', 'rating', 'is_owner', 'profile_id', 'artist_id', 'profile_image',
+             'created_at', 'updated_at', 'is_review'
         ]
 
 
@@ -68,7 +68,7 @@ class CommentSerializer(serializers.ModelSerializer):
         model = Comment
         fields = [
             'id', 'owner', 'is_owner', 'profile_id', 'profile_image',
-            'post', 'created_at', 'updated_at', 'content'
+            'post', 'created_at', 'updated_at', 'is_review', 'content'
         ]
 
 
