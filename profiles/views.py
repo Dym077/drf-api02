@@ -3,11 +3,7 @@ from rest_framework import generics, filters
 from django_filters.rest_framework import DjangoFilterBackend
 from drf_api1.permissions import IsOwnerOrReadOnly
 from .models import Profile, Artist
-from .serializers import ProfileSerializer, ArtistSerializer, CustomRegisterSerializer
-
-
-class CustomRegisterView(RegisterView):
-    serializer_class = CustomregisterSerializer
+from .serializers import ProfileSerializer, ArtistSerializer
 
 
 class ProfileList(generics.ListAPIView):
