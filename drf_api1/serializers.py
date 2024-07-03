@@ -1,4 +1,4 @@
-from dj_rest_auth.serializers import UserDetailsSerializer
+from dj_rest_auth.serializers import UserDetailsSerializer, RegisterSerializer
 from rest_framework import serializers
 
 
@@ -10,3 +10,11 @@ class CurrentUserSerializer(UserDetailsSerializer):
         fields = UserDetailsSerializer.Meta.fields + (
             'profile_id', 'profile_image'
         )
+
+class CustomRegisterSerializer(RegisterSerializer):
+    user_type = serializers.ChoiceField(choices=['regular', 'artist'])
+
+    def get_cleaned_data(self):
+        data = super().get_cleaned_data()
+        data['user_type'] = self.validated_data.get('user_type', '')
+        return data        
