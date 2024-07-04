@@ -10,7 +10,7 @@ class ReviewList(generics.ListCreateAPIView):
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     queryset = Review.objects.all()
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['artist']
+    filterset_fields = ['post']
 
     def perform_create(self, serializer):
         serializer.save(owner=self.request.user)

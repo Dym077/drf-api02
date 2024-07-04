@@ -5,6 +5,7 @@ from .models import Review, Comment
 
 class ReviewSerializer(serializers.ModelSerializer):
     owner = serializers.ReadOnlyField(source='owner.username')
+    post = serializers.ReadOnlyField(source='post.id')
     is_owner = serializers.SerializerMethodField()
     profile_id = serializers.ReadOnlyField(source='owner.profile.id')
     profile_image = serializers.ReadOnlyField(source='owner.profile.image.url')
@@ -28,8 +29,8 @@ class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
         fields = [
-            'id', 'owner','review', 'rating', 'is_owner', 'profile_id', 'artist_id', 'profile_image',
-             'created_at', 'updated_at', 'is_review'
+            'id', 'owner','review', 'is_owner', 'profile_id', 'artist_id', 'profile_image',
+             'created_at', 'updated_at', 'is_review', 'rating', 'title', 'tags'
         ]
 
 
