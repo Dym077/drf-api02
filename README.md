@@ -485,8 +485,9 @@ By applying this method, it is easer to choose which features will be implemente
 
 
 ## Technologies
+* Python
+* Django (Django REST Framwork)
 
-*
 
 ## Testing
 
