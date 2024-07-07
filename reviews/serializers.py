@@ -36,7 +36,7 @@ class ReviewSerializer(serializers.ModelSerializer):
 
 class ReviewDetailSerializer(ReviewSerializer):
     
-    post = serializers.ReadOnlyField(source='artist.id')
+    post = serializers.ReadOnlyField(source='post.id')
 
 
 class CommentSerializer(serializers.ModelSerializer):
