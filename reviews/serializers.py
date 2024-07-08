@@ -29,7 +29,7 @@ class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
         fields = [
-            'id', 'owner','review', 'is_owner', 'profile_id', 'artist_id', 'profile_image',
+            'id', 'post', 'owner','review', 'is_owner', 'profile_id', 'artist_id', 'profile_image',
              'created_at', 'updated_at', 'is_review', 'rating', 'title', 'tags'
         ]
 
