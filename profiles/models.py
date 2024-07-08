@@ -12,6 +12,7 @@ class Profile(models.Model):
     image = models.ImageField(
         upload_to='images/', default='images/default_profile_relxos.jpg'
     )
+    is_artist = models.BooleanField(default=False)
 
     class Meta:
         ordering = ['-created_at']
@@ -37,6 +38,7 @@ class Artist(models.Model):
     image = models.ImageField(
         upload_to='images/', default='images/avatar_ndcfzk.png'
     )
+    is_artist = models.BooleanField(default=True)
 
     class Meta:
         ordering = ['-created_at']
