@@ -1,7 +1,7 @@
 from rest_framework import generics, permissions
 from django_filters.rest_framework import DjangoFilterBackend
 from drf_api1.permissions import IsOwnerOrReadOnly
-from .models import Review, Review
+from .models import Review
 from .serializers import ReviewSerializer, ReviewDetailSerializer
 
 
