@@ -28,7 +28,7 @@ class Post(models.Model):
     image_filter = models.CharField(
         max_length=32, choices=image_filter_choices, default='normal'
     )
-    category = models.CharField(max_length=100, blank=True) # Artist can assign category to their work
+    category = models.CharField(max_length=100, blank=True) # User can assign category to their work
     location = models.CharField(max_length=255, blank=True) # e.g Where the picture is from
     notes = models.TextField(blank=True) # Additional notes
 
