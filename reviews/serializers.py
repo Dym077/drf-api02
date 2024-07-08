@@ -1,56 +1,20 @@
 from django.contrib.humanize.templatetags.humanize import naturaltime
 from rest_framework import serializers
-from .models import Review, Comment
+from .models import Review
 
 
 class ReviewSerializer(serializers.ModelSerializer):
+    """
+    Serializer for the Review model
+    Adds extra fields when returning a list of review instances
+    """
     owner = serializers.ReadOnlyField(source='owner.username')
-    post = serializers.ReadOnlyField(source='post.id')
     is_owner = serializers.SerializerMethodField()
     profile_id = serializers.ReadOnlyField(source='owner.profile.id')
     profile_image = serializers.ReadOnlyField(source='owner.profile.image.url')
     created_at = serializers.SerializerMethodField()
     updated_at = serializers.SerializerMethodField()
-    is_review = serializers.SerializerMethodField()
-
-    def get_is_owner(self, obj):
-        request = self.context['request']
-        return request.user == obj.owner
-
-    def get_created_at(self, obj):
-        return naturaltime(obj.created_at)
-
-    def get_updated_at(self, obj):   
-        return naturaltime(obj.created_at)
-
-    def get_is_review(self, obj):
-        return True    
-
-    class Meta:
-        model = Review
-        fields = [
-            'id', 'post', 'owner','review', 'is_owner', 'profile_id', 'artist_id', 'profile_image',
-             'created_at', 'updated_at', 'is_review', 'rating', 'title', 'tags'
-        ]
-
-
-class ReviewDetailSerializer(ReviewSerializer):
     
-    post = serializers.ReadOnlyField(source='artist.id')
-
-
-class CommentSerializer(serializers.ModelSerializer):
-    """
-    Serializer for the Comment model
-    Adds three extra fields when returning a list of Comment instances
-    """
-    owner = serializers.ReadOnlyField(source='owner.username')
-    is_owner = serializers.SerializerMethodField()
-    profile_id = serializers.ReadOnlyField(source='owner.profile.id')
-    profile_image = serializers.ReadOnlyField(source='owner.profile.image.url')
-    created_at = serializers.SerializerMethodField()
-    updated_at = serializers.SerializerMethodField()
-    is_review = serializers.SerializerMethodField()
 
     def get_is_owner(self, obj):
         request = self.context['request']
@@ -66,16 +30,16 @@ class CommentSerializer(serializers.ModelSerializer):
         return False    
 
     class Meta:
-        model = Comment
+        model = Review
         fields = [
             'id', 'owner', 'is_owner', 'profile_id', 'profile_image',
-            'post', 'created_at', 'updated_at', 'is_review', 'content'
+            'post', 'created_at', 'updated_at', 'content', 'rating', 'title', 'tags'
         ]
 
 
-class CommentDetailSerializer(CommentSerializer):
+class ReviewDetailSerializer(ReviewSerializer):
     """
-    Serializer for the Comment model used in Detail view
+    Serializer for the Review model used in Detail view
     Post is a read only field so that we dont have to set it on each update
     """
     post = serializers.ReadOnlyField(source='post.id')
