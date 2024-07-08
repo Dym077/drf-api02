@@ -26,8 +26,6 @@ class ReviewSerializer(serializers.ModelSerializer):
     def get_updated_at(self, obj):
         return naturaltime(obj.updated_at)
 
-    def get_is_review(self, obj):
-        return False    
 
     class Meta:
         model = Review
