@@ -1,7 +1,7 @@
 from django.test import TestCase
 
 # Create your tests here
-from reviews import Review
+from reviews.models import Review
 
 class TestReviewForm(TestCase):
 
