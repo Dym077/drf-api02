@@ -65,7 +65,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'), 
 'localhost',
-   '8000-dym077-drfapi02-zsgdzpgvgc7.ws.codeinstitute-ide.net',]
+   '8000-dym077-drfapi02-zewc2k3aoii.ws.codeinstitute-ide.net',]
 
 
 # Application definition
