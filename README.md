@@ -496,8 +496,10 @@ By applying this method, it is easer to choose which features will be implemente
 A series of manual tests were utilized to check all endpoints. 
 
 #### Found bugs while testing
-One of the most frustrating bugs I encountered during development, was an axioserror which was related to the "reviews" model. When attempting to post a review from the ReviewCreateForm on selected artwork, the devtools console returned "AxiosError Bad Request" For some reason, the front end could not communicate at all with the API. 
 ![Bad Request](documentation/bad_request.png)
+One of the most frustrating bugs I encountered during development and testing of the API, was an axioserror which was related to the "reviews" model. When attempting to post a review from the ReviewCreateForm on selected artwork, the devtools console returned "AxiosError Bad Request" For some reason, the front end could not communicate at all with the API.
+The reason for this bug was in the front end of this project. Because there were only one field for the review implemented, and the API requires four fields, the digital handshake could not be executed properly.
+
 
 #### Fixed bugs
 
