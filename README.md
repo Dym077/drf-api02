@@ -496,16 +496,16 @@ By applying this method, it is easer to choose which features will be implemente
 A series of manual tests were utilized to check all endpoints. 
 
 #### Found bugs while testing
-![Bad Request](documentation/bad_request.png)
+- ![Bad Request](documentation/bad_request.png)
 One of the most frustrating bugs I encountered during development and testing of the API, was an axioserror which was related to the "reviews" model. When attempting to post a review from the ReviewCreateForm on selected artwork, the devtools console returned "AxiosError Bad Request" For some reason, the front end could not communicate at all with the API.
 The reason for this bug was in the front end of this project. Because there were only one field for the review implemented, and the API requires four fields, the digital handshake could not be executed properly.
+
+- When changing the default profile image, the API and CLoudinary occasionally won't connect properly. To prevent the avatar image from being absent, I used this command ocated in the folder "management/commands" to update the profile images. 
 
 
 #### Fixed bugs
 
 - The DOM returns a NaN message when a user submits a comment on another user's post. The reason for this error is not to be found in the front end, but should be caused when the integer from the API isn't properly read by the DOM, believing it to be a string rather than an integer. The culprit was revealed to be the serializer in the Postserializer model for the backend API missed a comments_count field so the Post model was not annotated with comments_count field. Thanks to help from tutor support we were able to pinpoint this bug and fix it.
-
-- When changing the default profile image, the API and CLoudinary occasionally won't connect properly. To prevent the avatar image from being absent, I used this command ocated in the folder "management/commands" to update the profile images. 
 
 
 #### Unresolved bugs
