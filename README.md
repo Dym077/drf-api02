@@ -494,6 +494,8 @@ By applying this method, it is easer to choose which features will be implemente
 ### Manual Testing
 
 A series of manual tests were utilized to check all endpoints. 
+The full documentation of the manual testing can be found via this link:
+- [Testing](./TESTING.md)
 
 #### Found bugs while testing
 - ![Bad Request](documentation/bad_request.png)
@@ -509,6 +511,10 @@ The reason for this bug was in the front end of this project. Because there were
 
 
 #### Unresolved bugs
+
+- The browser should return alerts when a review form isn't properly filled out.
+Mandatory fields such as "title" and "rating" returns no visible alerts to the user - the form will just not be published or updated.
+- The rating system currently returns no alerts if the user enters an integer larger than 5 or smaller than 1.
 
 ## Heroku Deployment
 
