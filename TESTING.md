@@ -66,7 +66,18 @@ Write review on posts:
     <img src="documentation/testing/review/review_delete_204.png">
 </p>
 
+* As a user I can create my own unique profile so that I can get access to all the features on the site
 
+***Acceptance Criteria
+
+ Create unique username
+ Create unique password
+ Login and logout function
+
+<p>
+    <img src="documentation/testing/authorization/register_201.png">
+</p>
+ 
 
 <p>
     <img src="documentation/testing/authorization/login_405.png">
@@ -104,9 +115,7 @@ Write review on posts:
 
 - A new registered user can register with a username and password. Email and full name is not necessary.
 
-<p>
-    <img src="documentation/testing/authorization/register_201.png">
-</p>
+
 
 - A new user cannot register, without entering a username or a valid password.
 
@@ -181,6 +190,14 @@ answer with a 200 created.
 <p>
     <img src="documentation/testing/posts/post_title_201.png">
 </p>
+
+* As a user I can change my username and password so that I can keep my personal details safe
+
+***Acceptance Criteria
+
+ Change username
+ Change password
+ Save changes
 
 - If a user wishes to update the profile, the database will return the new values with a 200 message:
 
