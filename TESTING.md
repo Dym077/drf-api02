@@ -93,6 +93,64 @@ Write review on posts:
     <img src="documentation/testing/authorization/register_405.png">
 </p>
 
+<p>
+    <img src="documentation/testing/followers/follower_create_201.png">
+</p>
+
+<p>
+    <img src="documentation/testing/followers/follower_delete_204.png">
+</p>
+
+<p>
+    <img src="documentation/testing/likes/likes_200.png">
+</p>
+
+<p>
+    <img src="documentation/testing/likes/likes_201.png">
+</p>
+
+<p>
+    <img src="documentation/testing/likes/likes_204.png">
+</p>
+
+<p>
+    <img src="documentation/testing/posts/post_.png">
+</p>
+
+<p>
+    <img src="documentation/testing/posts/post_create_all.png">
+</p>
+
+<p>
+    <img src="documentation/testing/posts/post_delete_204.png">
+</p>
+
+<p>
+    <img src="documentation/testing/posts/post_edit_all_200.png">
+</p>
+
+<p>
+    <img src="documentation/testing/posts/post_title_201.png">
+</p>
+
+<p>
+    <img src="documentation/testing/profiles/Screenshot (339).png">
+</p>
+
+<p>
+    <img src="documentation/testing/profiles/Screenshot (340).png">
+</p>
+<p>
+    <img src="documentation/testing/profiles/Screenshot (341).png">
+</p>
+
+<p>
+    <img src="documentation/testing/profiles/Screenshot (342).png">
+</p>
+
+<p>
+    <img src="documentation/testing/profiles/Screenshot (343).png">
+</p>
 
 | Test Case | Description | Result | Comments |
 |-----------|-------------|--------|----------|
