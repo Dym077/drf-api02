@@ -497,6 +497,50 @@ A series of manual tests were utilized to check all endpoints.
 The full documentation of the manual testing can be found via this link:
 - [Testing](./TESTING.md)
 
+#### Python Testing
+All python code was tested using [CI Python Linter](https://pep8ci.herokuapp.com/)
+
+- `drf_api1/permissions.py`:
+- `drf_api1/seriailizers.py`:
+- `drf_api1/settings.py`:
+- `drf_api1/urls.py`:
+- `drf_api1/views.py`:
+
+- `followers/admin.py`:
+- `followers/apps.py`:
+- `followers/models.py`:
+- `followers/serializers.py`:
+- `followers/urls.py`:
+- `followers/views.py`:
+
+- `likes/admin.py`:
+- `likes/apps.py`:
+- `likes/models.py`:
+- `likes/serializers.py`:
+- `likes/urls.py`:
+- `likes/views.py`:
+
+- `posts/admin.py`:
+- `posts/apps.py`:
+- `posts/models.py`:
+- `posts/serializers.py`:
+- `posts/urls.py`:
+- `posts/views.py`:
+
+- `profiles/admin.py`:
+- `profiles/apps.py`:
+- `profiles/models.py`:
+- `profiles/serializers.py`:
+- `profiles/urls.py`:
+- `profiles/views.py`:
+
+- `reviews/admin.py`:
+- `reviews/apps.py`:
+- `reviews/models.py`:
+- `reviews/serializers.py`:
+- `reviews/urls.py`:
+- `reviews/views.py`:
+
 #### Found bugs while testing
 - ![Bad Request](documentation/bad_request.png)
 One of the most frustrating bugs I encountered during development and testing of the API, was an axioserror which was related to the "reviews" model. When attempting to post a review from the ReviewCreateForm on selected artwork, the devtools console returned "AxiosError Bad Request" For some reason, the front end could not communicate at all with the API.
@@ -534,7 +578,7 @@ The site was deployed to Heroku. These are the steps to do this:
 | `DISABLE_COLLECTSTATIC` | 1 (*not needed for the final deployment*) |
 | `SECRET_KEY` | exclusive to the user |
 
-To deploy properly, Heroku needs two addiional files:
+To deploy properly, Heroku needs two additional files:
 - requirements.txt
 - Procfile
 
@@ -569,6 +613,42 @@ The live link can be found here:
 ! [Django Documentation](https://docs.djangoproject.com/en/5.0/)
 ! []()
 
+## Frameworks, libraries and dependencies used
+The Virtual Art Gallery API is built in Python using [Django](https://www.djangoproject.com) and [Django Rest Framework](https://django-filter.readthedocs.io/en/stable/).
+
+In addition, there were some extra tools, that made the implementationpossible:
+
+### django-cloudinary-storage
+https://pypi.org/project/django-cloudinary-storage/
+
+This service provides storage of profile images and uploaded images to cloudinary.
+
+### dj-allauth
+https://docs.allauth.org/en/latest/
+
+This service is for providing secure user authentication.
+
+### dj-rest-auth
+https://dj-rest-auth.readthedocs.io/en/latest/
+
+Used for login and logout in REST.
+
+### djangorestframework-simplejwt
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/
+
+Provides the JSON web token authentication.
+
+### dj-database-url
+https://pypi.org/project/dj-database-url/
+
+Builds the variable to configure a connection to the backend.
+
+### psychopg2
+https://pypi.org/project/psycopg2/
+
+Db adapter to ake sure theat Python and the PostgreSQL database make the digital handshake.
+
+Note that the above listed dependencies were used in concert with versions that don't create any conflicts in the application. The version used can be found in [requirements.txt.]
 
 ### Content
 

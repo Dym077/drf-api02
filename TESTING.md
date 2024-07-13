@@ -268,6 +268,16 @@ answer with a 200 created.
 </p>
 
 - Profile list:
+When calling the profiles extention, all profiles registered in the database should be 
+displayed. To the user, this will be translated as the profiles avatars in the browser.
+
+As a **user ** I can view the most popular profiles so that I can choose who to follow
+
+***Acceptance Criteria
+
+ Popular profiles visible in browser
+ User can click on popular profiles
+ User can follow popular profiles
 
 <p>
     <img src="documentation/testing/profiles/profile_list_200.png">
