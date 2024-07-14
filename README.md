@@ -650,7 +650,18 @@ Db adapter to ake sure theat Python and the PostgreSQL database make the digital
 
 Note that the above listed dependencies were used in concert with versions that don't create any conflicts in the application. The version used can be found in [requirements.txt.]
 
-### Content
+## Content
+
+### Credits
+
+- To find articles on how to build with Django, I found this documentation cery useful: [Django Documentation](https://docs.djangoproject.com/en/5.0/)
+- The full ocumentation on how to use the REST framwork can be found here[Django REST Framework](https://www.django-rest-framework.org/)
+- Additional articles on the topic were found on [Stack Overflow](https://stackoverflow.com/)
+A number of online tools were used to build the ERD's for this project:
+- [Smartdraw](https://www.smartdraw.com/entity-relationship-diagram/er-diagram-tool.htm)
+- [Lucidchart](https://www.lucidchart.com/pages/examples/er-diagram-tool)
+- [DrawSQL](https://drawsql.app/login?redirectUrl=https%3A%2F%2Fdrawsql.app%2Fdiagrams)
+- [VisalParadigmOnline](https://online.visual-paradigm.com/)
 
 
 ### Acknowledgements
