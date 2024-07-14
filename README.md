@@ -500,46 +500,46 @@ The full documentation of the manual testing can be found via this link:
 #### Python Testing
 All python code was tested using [CI Python Linter](https://pep8ci.herokuapp.com/)
 
-- `drf_api1/permissions.py`:
-- `drf_api1/seriailizers.py`:
-- `drf_api1/settings.py`:
-- `drf_api1/urls.py`:
-- `drf_api1/views.py`:
+- `drf_api1/permissions.py`: no errors
+- `drf_api1/seriailizers.py`: no errors
+- `drf_api1/settings.py`: no errors
+- `drf_api1/urls.py`: no errors
+- `drf_api1/views.py`: no errors
 
-- `followers/admin.py`:
-- `followers/apps.py`:
-- `followers/models.py`:
-- `followers/serializers.py`:
-- `followers/urls.py`:
-- `followers/views.py`:
+- `followers/apps.py`: no errors
+- `followers/models.py`: no errors
+- `followers/serializers.py`: no errors
+- `followers/urls.py`: no errors
+- `followers/views.py`: no errors
 
-- `likes/admin.py`:
-- `likes/apps.py`:
-- `likes/models.py`:
-- `likes/serializers.py`:
-- `likes/urls.py`:
-- `likes/views.py`:
+- `likes/apps.py`: no errors
+- `likes/models.py`: no errors
+- `likes/serializers.py`: no errors
+- `likes/urls.py`: no errors
+- `likes/views.py`: no errors
 
-- `posts/admin.py`:
-- `posts/apps.py`:
-- `posts/models.py`:
-- `posts/serializers.py`:
-- `posts/urls.py`:
-- `posts/views.py`:
+- `posts/apps.py`: no errors
+- `posts/models.py`: no errors
+- `posts/serializers.py`: no errors
+- `posts/urls.py`: no errors
+- `posts/views.py`: no errors
 
-- `profiles/admin.py`:
-- `profiles/apps.py`:
-- `profiles/models.py`:
-- `profiles/serializers.py`:
-- `profiles/urls.py`:
-- `profiles/views.py`:
+- `profiles/admin.py`: no errors
+- `profiles/apps.py`: no errors
+- `profiles/models.py`: no errors
+- `profiles/serializers.py`: no errors
+- `profiles/urls.py`: no errors
+- `profiles/views.py`: no errors
 
-- `reviews/admin.py`:
-- `reviews/apps.py`:
-- `reviews/models.py`:
-- `reviews/serializers.py`:
-- `reviews/urls.py`:
-- `reviews/views.py`:
+- `reviews/admin.py`: no errors
+- `reviews/apps.py`: no errors
+- `reviews/models.py`: no errors
+- `reviews/serializers.py`: no errors
+- `reviews/urls.py`: no errors
+- `reviews/views.py`: no errors
+
+The CI Python Linter returns some suggestions considering whitespaces and new lines.
+These suggestions can be safely ignored, as the code will still run without errors.
 
 #### Found bugs while testing
 - ![Bad Request](documentation/bad_request.png)
