@@ -602,16 +602,29 @@ The Procfile can be created either by right-clicking in the base dir and select 
 The live link can be found here: 
 
 ## Version Control
-
-
-
-
-## Credits
-
-### Online resources
-! [Stack Overflow](https://stackoverflow.com/)
-! [Django Documentation](https://docs.djangoproject.com/en/5.0/)
-! []()
+- This project is written entirely on the main branch in GitHub.
+To be able to make a new version without affection the original branch, you can¨
+make use of the function called forking. This way you don't have to worry that changes you do to
+the new version will harm your project, if you unintentionally write and push faulty code.
+When you instead clone a repository, all your changes will affect the original branch.
+* How to clone a repository on GitHub:(Source: GitHub)
+1. Navigate to GitHub
+2. In the dropdown menu, choose "clone repository".
+3. Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
+4. From the list of repositories, click the repository you want to clone.
+5. To select the local directory into which you want to clone the repository, next to the "Local Path" field, click "Choose", and navigate to the directory.
+6. At the bottom of the "Clone a Repository" window, click Clone.
+* How to fork a repository on GitHub:
+1. At the bottom of the "Clone a Repository" window, click Clone.
+2. Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
+3. From the list of repositories, click the repository you want to clone.
+4. To select the local directory into which you want to clone the repository, next to the "Local Path" field, click Choose... and navigate to the directory.
+5. At the bottom of the "Clone a Repository" window, click Clone.
+6. Read the information in the "How are you planning to use this fork?" window.
+If you plan to use this fork for contributing to the original upstream repository, click To contribute to the parent project.
+If you plan to use this fork for a project not connected to the upstream, click For my own purposes.
+7. Click Continue.
+You can read extensively on how to clone or fork a repository [here](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)
 
 ## Frameworks, libraries and dependencies used
 The Virtual Art Gallery API is built in Python using [Django](https://www.djangoproject.com) and [Django Rest Framework](https://django-filter.readthedocs.io/en/stable/).
