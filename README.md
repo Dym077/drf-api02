@@ -35,7 +35,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **developer** I can **make sure that the project is well coded** so that **it runs without problems or bugs**
 
 
-***App should run flawlessly locally
+* App should run flawlessly locally
 
 - Develop project
 - Test project 
@@ -44,7 +44,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **developer** I can **create a profiles page ** so that **users can create their own profiles**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - A profile image
 - Biography
@@ -54,7 +54,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **developer** I can **create a profiles page ** so that **users can create their own profiles**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - A profile image
 - Biography
@@ -64,7 +64,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a *developer** I can **let users follow other users** so that **they can build their social network**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Follow button
 - Unfollow button
@@ -72,7 +72,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **developer** I can **let users create their own posts** so that **other users can view, like and comment on them**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Add image field
 - Edit posts text field
@@ -81,7 +81,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **developer** I can **create a comments section** so that **users can comment on posts**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Comment button
 - Comment text field
@@ -91,7 +91,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **developer** I can **create a like button** so that **users can like each others posts**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - A like button
 - Like post
@@ -100,7 +100,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **developer** I can **create an artists page** so that **users and artists can interact**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Artists can register a dedicated profile
 - Artists can upload images in high resolution
@@ -109,20 +109,20 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **developer ** I can **build a review function** so that **users can review the featured artists work**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - A field for a short review.
 - A favourite marker function
 
 * As a developer I can publish the finished project so that other users can utilise all the features.
 
-**Acceptance criteria
+* Acceptance criteria:
 
 - Project is ready for publishing 
 
 * As a developer I can make an early deployment of the project so that I can see that it works properly
 
-**Acceptance criteria
+* Acceptance criteria:
 
 - Deploy an early version of the project
 
@@ -134,7 +134,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **view posts by a specific user or artist** so that **I can keep myself updated about them**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - View profiles by users and artists
 - Gain access to the user's posts and bio
@@ -142,7 +142,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user ** I can **view post by other users and artists** so that **I can get acquainted with them**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - View all posts by users and artists
 - Infinite scroll on page
@@ -151,7 +151,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **create my own unique profile** so that **I can get access to all the features on the site**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Create unique username
 - Create unique password
@@ -160,7 +160,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **gain new followers ** so that **I can extend my social network**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Other users can follow profiles
 - Other users can view profile
@@ -168,7 +168,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **logged in user ** I can **follow other profiles** so that **I can extend my social network**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Ability to follow other profiles
 - Ability to unfollow other profiles
@@ -176,7 +176,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **create new posts** so that **other users can view them**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - User can upload image
 - User can describe the image
@@ -185,7 +185,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **logged in user** I can **delete my posts** so that **others can't view them**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - A delete function
 - Selected post and related media will be deleted
@@ -193,7 +193,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 
 * As a user I can edit my post title and description so that I can update or correct the post according to accuracy
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Edit button
 - Save changes button
@@ -203,7 +203,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a logged in user I can view posts filtered by other users so that I can be updated about their activities
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Filter function
 - Activities feed visible when logged in
@@ -212,7 +212,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a logged in user I can view posts and artwork I liked so that I can collect them in my feed
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Posts liked showing up in users feed
 - Unliked posts disappearing from the feed
@@ -220,7 +220,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a user, I can use keywords, so that I can find the artwork and profiles I look for.
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Search field accepting keywords
 - Results responding to typed in keywords
@@ -229,7 +229,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
  * As a logged in user I can view details of a post so that I can learn about the creation of a specific piece of art
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Details field available in post
 - Click view details
@@ -237,7 +237,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **logged in user** I can **like other users posts** so that **I can keep them in my feed and they can see my likes**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - A like button 
 - Liking a post will make the logged in users likes to update
@@ -247,7 +247,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **logged in user** I can **click the like button** so that **a liked post will become unliked**
 
 
-***Acceptance Criteria
+* Acceptance Criteria: 
 
 - Clicking the like button on a previously liked post will make the post unliked
 - The post-liking integer will decrease by one
@@ -255,7 +255,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **logged in user** I can **comment on other users' posts** so that **I can interact with them**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Toggle comment button
 - Type comment in text field
@@ -264,7 +264,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **edit my own comments** so that **I can correct the coment if necessary**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Toggle edit comment button
 - Edit comment in text field
@@ -273,7 +273,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **delete my own comments** so that **it will be totally removed**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Toggle delete comment button
 - Accept query to remove comment
@@ -282,7 +282,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **view other users comments** so that **I can get feedback on my posts**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - View comments on selected post
 - Toggle comments icon
@@ -290,7 +290,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **comment on my own posts** so that **other users can view them**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Toggle comment icon
 - Add new comment in text field
@@ -299,7 +299,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **view date and time on comments** so that **I know when the comment was published or edited**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Date and time visible on comment
 - Date and time gets updated when comment gets edited
@@ -307,7 +307,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As an **artist** I can **create a unique profile** so that **other users can view and comment on my work**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Create an artist profile
 - Share contact details
@@ -316,7 +316,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **view an artists profile** so that **I can get more info about them**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - View an artist profile
 - Scroll through an artists work
@@ -324,7 +324,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **comment on a specific artists work** so that **the artist can receive feedback**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Toggle comment button
 - Type comment in text field
@@ -333,7 +333,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **like a specific artists work** so that **they can receive feedback**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Like button
 - Like integer will increase by on
@@ -342,7 +342,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **unlike a specific artists work** so that **only liked artwork will appear in my feed**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Click unlike on a previously liked artwork
 - Like integer will decrease by one
@@ -350,7 +350,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **logged in artist** I can **edit my own profile** so that **I can update my personal info and other users can view them**
 
 
-***Acceptance Criteria
+* Acceptance Criteria: 
 
 - Toggle edit personal info 
 - Edit details in text field
@@ -359,7 +359,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **change my username and password** so that **I can keep my personal details safe**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Change username
 - Change password
@@ -400,7 +400,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user ** I can **view the most popular profiles** so that **I can choose who to follow**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - Popular profiles visible in browser
 - User can click on popular profiles
@@ -409,7 +409,7 @@ After getting some feedback on this first model, I instead tried to rebuild the 
 * As a **user** I can **view my profile page** so that **I can see my image, my followers, likes, posts and who I'm following**
 
 
-***Acceptance Criteria
+* Acceptance Criteria:
 
 - View users own profile page
 - View users profile image
