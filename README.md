@@ -9,7 +9,7 @@ The goal of this site is to connect people with similar interests in visual art 
 ### The API models
 
 This API consists of 8 models which are wired to the front end architecture to provide a good user experience. These models will be described in greater detail later in this documentation and their front end representation is described in the documentation for the ReactJS app.
-- [Link]()
+- [Virtual Art Gallery](https://github.com/Dym077/virtual-gallery)
 
 ## The Agile Method     
 
