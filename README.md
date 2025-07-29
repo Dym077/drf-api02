@@ -656,7 +656,7 @@ https://pypi.org/project/dj-database-url/
 
 Builds the variable to configure a connection to the backend.
 
-### psychopg2
+### psycopg2
 https://pypi.org/project/psycopg2/
 
 Db adapter to ake sure theat Python and the PostgreSQL database make the digital handshake.
